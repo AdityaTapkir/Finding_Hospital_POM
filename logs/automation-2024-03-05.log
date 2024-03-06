@@ -1,0 +1,52 @@
+15:37:55.720 [main] INFO  TestBase.BaseClass - *****Test Case TC_011_veryfingDirectedtoSurgeryPage Ended*****
+15:37:56.204 [main] INFO  TestBase.BaseClass - *****Starting TC_012_allPossibleSurgery Test Case*****
+15:37:58.696 [main] INFO  TestBase.BaseClass - Copying all possible surgeries from one list to another.
+15:38:01.991 [main] INFO  TestBase.BaseClass - Printing the list of all possible surgeries.
+15:38:02.041 [main] INFO  TestBase.BaseClass - Scrolling up till for corporate button
+15:38:02.042 [main] INFO  TestBase.BaseClass - *****Test Case TC_012_allPossibleSurgery Ended*****
+15:38:02.549 [main] INFO  TestBase.BaseClass - *****Starting TC_013_navigatingToHealthAndWellness Test Case*****
+15:38:02.698 [main] INFO  TestBase.BaseClass - Clicked on For Corporate
+15:38:37.167 [main] INFO  TestBase.BaseClass - Clicked on Health and Wellness.
+15:38:37.168 [main] INFO  TestBase.BaseClass - *****Test Case TC_013_navigatingToHealthAndWellness Ended*****
+15:38:37.543 [main] INFO  TestBase.BaseClass - *****Starting TC_014_verifyingDirectedtoHealthAndWellnessPase Test Case*****
+15:38:37.555 [main] INFO  TestBase.BaseClass - Getting title of the current page
+15:38:37.556 [main] INFO  TestBase.BaseClass - Title of current page is valid and we are diverted to correct page
+15:38:37.556 [main] INFO  TestBase.BaseClass - *****Test Case TC_014_verifyingDirectedtoHealthAndWellnessPase Ended*****
+15:38:37.927 [main] INFO  TestBase.BaseClass - *****Starting TC_015_fillformWithInvalidNumber Test Case*****
+15:38:39.134 [main] INFO  TestBase.BaseClass - The submit button is disabled when the form is filled with invalid contact number.
+15:38:40.146 [main] INFO  TestBase.BaseClass - *****Test Case TC_015_fillformWithInvalidNumber Ended*****
+15:38:40.570 [main] INFO  TestBase.BaseClass - *****Starting TC_016_fillingformWithInvalidEmail Test Case*****
+15:38:40.888 [main] INFO  TestBase.BaseClass - Previous data of formFillingWithInvalidNumber is cleared.
+15:38:42.842 [main] INFO  TestBase.BaseClass - The submit button is disabled when the form is filled with invalid Email-id
+15:38:43.848 [main] INFO  TestBase.BaseClass - *****Test Case TC_016_fillingformWithInvalidEmail Ended*****
+15:38:44.245 [main] INFO  TestBase.BaseClass - *****Starting TC_017_fillingFormWithValidInput Test Case*****
+15:38:44.529 [main] INFO  TestBase.BaseClass - Previous data of formFillingWithInvalidEmail is cleared.
+15:38:46.781 [main] INFO  TestBase.BaseClass - The submit button is enabled when the form is filled with the valid data
+15:38:46.947 [main] INFO  TestBase.BaseClass - Clicked on Submit button
+15:38:46.947 [main] INFO  TestBase.BaseClass - *****Test Case TC_017_fillingFormWithValidInput Ended*****
+15:38:47.505 [main] INFO  TestBase.BaseClass - *****Starting TC_018_validatingThankYou Test Case*****
+15:40:01.985 [main] INFO  TestBase.BaseClass - Tear down Sucessfull
+17:25:23.540 [main] INFO  TestBase.BaseClass - *****Starting TC_001_findDoctors Test Case*****
+17:25:23.629 [main] INFO  TestBase.BaseClass - URL is varified
+17:25:23.702 [main] INFO  TestBase.BaseClass - Verifying Find Doctors button has been displayed
+17:25:55.508 [main] INFO  TestBase.BaseClass - Clicked on Find Doctors
+17:25:55.509 [main] INFO  TestBase.BaseClass - *****Test Case TC_001_findDoctors Ended*****
+17:25:55.868 [main] INFO  TestBase.BaseClass - *****Starting TC_002_selectLocation Test Case*****
+17:25:58.515 [main] INFO  TestBase.BaseClass - Selected the City in city textbox
+17:25:58.515 [main] INFO  TestBase.BaseClass - *****Test Case TC_002_selectLocation Ended*****
+17:25:58.828 [main] INFO  TestBase.BaseClass - *****Starting TC_003_selectProfession Test Case*****
+17:26:00.087 [main] INFO  TestBase.BaseClass - Clicked on Profession Textbox
+17:26:34.830 [main] INFO  TestBase.BaseClass - Profession is selected
+17:26:34.831 [main] INFO  TestBase.BaseClass - *****Test Case TC_003_selectProfession Ended*****
+17:26:35.100 [main] INFO  TestBase.BaseClass - *****Starting TC_004_selectStory Test Case*****
+17:26:38.403 [main] INFO  TestBase.BaseClass - Patient story is selected
+17:26:38.403 [main] INFO  TestBase.BaseClass - *****Test Case TC_004_selectStory Ended*****
+17:26:38.738 [main] INFO  TestBase.BaseClass - *****Starting TC_005_doctorExperience Test Case*****
+17:27:11.817 [main] INFO  TestBase.BaseClass - Patient story is selected
+17:27:11.817 [main] INFO  TestBase.BaseClass - *****Test Case TC_005_doctorExperience Ended*****
+17:27:12.114 [main] INFO  TestBase.BaseClass - *****Starting TC_006_selectingDoctorFees Test Case*****
+17:27:45.167 [main] INFO  TestBase.BaseClass - Clicked on all filters dropdown
+17:27:45.335 [main] INFO  TestBase.BaseClass - Doctor Fees is selected
+17:27:45.335 [main] INFO  TestBase.BaseClass - *****Test Case TC_006_selectingDoctorFees Ended*****
+17:27:45.564 [main] INFO  TestBase.BaseClass - *****Starting TC_007_selectingDoctorsAvailability Test Case*****
+17:28:18.185 [main] INFO  TestBase.BaseClass - Clicked on all filters dropdown

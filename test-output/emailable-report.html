@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">17</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">392,024</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestCases.HealthandWellness_TestCases</td><td><a href="#m0">TC_018_validatingThankYou</a></td><td rowspan="1">1709633327504</td><td rowspan="1">72844</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="9">TestCases.FindDoctors_TestCases</td><td><a href="#m1">TC_001_findDoctors</a></td><td rowspan="1">1709633050224</td><td rowspan="1">32211</td></tr><tr class="passedeven"><td><a href="#m2">TC_002_selectLocation</a></td><td rowspan="1">1709633082840</td><td rowspan="1">2801</td></tr><tr class="passedeven"><td><a href="#m3">TC_003_selectProfession</a></td><td rowspan="1">1709633085950</td><td rowspan="1">35055</td></tr><tr class="passedeven"><td><a href="#m4">TC_004_selectStory</a></td><td rowspan="1">1709633121275</td><td rowspan="1">3302</td></tr><tr class="passedeven"><td><a href="#m5">TC_005_doctorExperience</a></td><td rowspan="1">1709633124903</td><td rowspan="1">34847</td></tr><tr class="passedeven"><td><a href="#m6">TC_006_selectingDoctorFees</a></td><td rowspan="1">1709633160078</td><td rowspan="1">52657</td></tr><tr class="passedeven"><td><a href="#m7">TC_007_selectingDoctorsAvailability</a></td><td rowspan="1">1709633213003</td><td rowspan="1">5287</td></tr><tr class="passedeven"><td><a href="#m8">TC_008_selectingSortBy</a></td><td rowspan="1">1709633218548</td><td rowspan="1">43333</td></tr><tr class="passedeven"><td><a href="#m9">TC_009_topFiveDoctorDetails</a></td><td rowspan="1">1709633262152</td><td rowspan="1">9335</td></tr><tr class="passedodd"><td rowspan="5">TestCases.HealthandWellness_TestCases</td><td><a href="#m10">TC_013_navigatingToHealthAndWellness</a></td><td rowspan="1">1709633282548</td><td rowspan="1">34620</td></tr><tr class="passedodd"><td><a href="#m11">TC_014_verifyingDirectedtoHealthAndWellnessPase</a></td><td rowspan="1">1709633317541</td><td rowspan="1">15</td></tr><tr class="passedodd"><td><a href="#m12">TC_015_fillformWithInvalidNumber</a></td><td rowspan="1">1709633317926</td><td rowspan="1">2220</td></tr><tr class="passedodd"><td><a href="#m13">TC_016_fillingformWithInvalidEmail</a></td><td rowspan="1">1709633320570</td><td rowspan="1">3279</td></tr><tr class="passedodd"><td><a href="#m14">TC_017_fillingFormWithValidInput</a></td><td rowspan="1">1709633324244</td><td rowspan="1">2703</td></tr><tr class="passedeven"><td rowspan="3">TestCases.Surgeries_TestCases</td><td><a href="#m15">TC_010_clickSurgery</a></td><td rowspan="1">1709633271825</td><td rowspan="1">3342</td></tr><tr class="passedeven"><td><a href="#m16">TC_011_veryfingDirectedtoSurgeryPage</a></td><td rowspan="1">1709633275654</td><td rowspan="1">85</td></tr><tr class="passedeven"><td><a href="#m17">TC_012_allPossibleSurgery</a></td><td rowspan="1">1709633276202</td><td rowspan="1">5840</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">TestCases.HealthandWellness_TestCases#TC_018_validatingThankYou</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //div[@class=&apos;u-text--bold text-alpha&apos;]&apos; (tried for 60 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at PageObject.HealthandWellness.validateThankYou(HealthandWellness.java:132)
+	at TestCases.HealthandWellness_TestCases.TC_018_validatingThankYou(HealthandWellness_TestCases.java:81)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;u-text--bold text-alpha&apos;]&quot;}
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ca7ca2fbc32270f427aaa5f45f02a183, findElement {using=xpath, value=//div[@class=&apos;u-text--bold text-alpha&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53913}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53913/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ca7ca2fbc32270f427aaa5f45f02a183
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy49.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:204)
+	... 30 more
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">TestCases.FindDoctors_TestCases#TC_001_findDoctors</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">TestCases.FindDoctors_TestCases#TC_002_selectLocation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">TestCases.FindDoctors_TestCases#TC_003_selectProfession</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">TestCases.FindDoctors_TestCases#TC_004_selectStory</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">TestCases.FindDoctors_TestCases#TC_005_doctorExperience</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">TestCases.FindDoctors_TestCases#TC_006_selectingDoctorFees</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">TestCases.FindDoctors_TestCases#TC_007_selectingDoctorsAvailability</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">TestCases.FindDoctors_TestCases#TC_008_selectingSortBy</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">TestCases.FindDoctors_TestCases#TC_009_topFiveDoctorDetails</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">TestCases.HealthandWellness_TestCases#TC_013_navigatingToHealthAndWellness</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">TestCases.HealthandWellness_TestCases#TC_014_verifyingDirectedtoHealthAndWellnessPase</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">TestCases.HealthandWellness_TestCases#TC_015_fillformWithInvalidNumber</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">TestCases.HealthandWellness_TestCases#TC_016_fillingformWithInvalidEmail</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">TestCases.HealthandWellness_TestCases#TC_017_fillingFormWithValidInput</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">TestCases.Surgeries_TestCases#TC_010_clickSurgery</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">TestCases.Surgeries_TestCases#TC_011_veryfingDirectedtoSurgeryPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">TestCases.Surgeries_TestCases#TC_012_allPossibleSurgery</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="TestCases.TestCases">
+        <methods>
+          <include name="TC_001_findDoctors"/>
+          <include name="TC_009_topFiveDoctorDetails"/>
+          <include name="TC_002_selectLocation"/>
+          <include name="TC_004_selectStory"/>
+          <include name="TC_005_doctorExperience"/>
+          <include name="TC_007_selectingDoctorsAvailability"/>
+          <include name="TC_010_clickSurgery"/>
+          <include name="setupDriver"/>
+          <include name="TC_003_selectProfession"/>
+          <include name="TC_008_selectingSortBy"/>
+          <include name="TC_006_selectingDoctorFees"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.TestCases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

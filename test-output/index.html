@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\2303837\eclipse-workspace\Finding_Hospital_POM\master.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods, 1 failed,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.HealthandWellness_TestCases" class="method navigator-link" hash-for-method="TC_018_validatingThankYou">TC_018_validatingThankYou</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.FindDoctors_TestCases" class="method navigator-link" hash-for-method="TC_001_findDoctors">TC_001_findDoctors</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.FindDoctors_TestCases" class="method navigator-link" hash-for-method="TC_002_selectLocation">TC_002_selectLocation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.FindDoctors_TestCases" class="method navigator-link" hash-for-method="TC_003_selectProfession">TC_003_selectProfession</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.FindDoctors_TestCases" class="method navigator-link" hash-for-method="TC_004_selectStory">TC_004_selectStory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.FindDoctors_TestCases" class="method navigator-link" hash-for-method="TC_005_doctorExperience">TC_005_doctorExperience</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.FindDoctors_TestCases" class="method navigator-link" hash-for-method="TC_006_selectingDoctorFees">TC_006_selectingDoctorFees</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.FindDoctors_TestCases" class="method navigator-link" hash-for-method="TC_007_selectingDoctorsAvailability">TC_007_selectingDoctorsAvailability</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.FindDoctors_TestCases" class="method navigator-link" hash-for-method="TC_008_selectingSortBy">TC_008_selectingSortBy</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.FindDoctors_TestCases" class="method navigator-link" hash-for-method="TC_009_topFiveDoctorDetails">TC_009_topFiveDoctorDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.Surgeries_TestCases" class="method navigator-link" hash-for-method="TC_010_clickSurgery">TC_010_clickSurgery</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.Surgeries_TestCases" class="method navigator-link" hash-for-method="TC_011_veryfingDirectedtoSurgeryPage">TC_011_veryfingDirectedtoSurgeryPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.Surgeries_TestCases" class="method navigator-link" hash-for-method="TC_012_allPossibleSurgery">TC_012_allPossibleSurgery</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.HealthandWellness_TestCases" class="method navigator-link" hash-for-method="TC_013_navigatingToHealthAndWellness">TC_013_navigatingToHealthAndWellness</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.HealthandWellness_TestCases" class="method navigator-link" hash-for-method="TC_014_verifyingDirectedtoHealthAndWellnessPase">TC_014_verifyingDirectedtoHealthAndWellnessPase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.HealthandWellness_TestCases" class="method navigator-link" hash-for-method="TC_015_fillformWithInvalidNumber">TC_015_fillformWithInvalidNumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.HealthandWellness_TestCases" class="method navigator-link" hash-for-method="TC_016_fillingformWithInvalidEmail">TC_016_fillingformWithInvalidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.HealthandWellness_TestCases" class="method navigator-link" hash-for-method="TC_017_fillingFormWithValidInput">TC_017_fillingFormWithValidInput</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestCases.HealthandWellness_TestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_018_validatingThankYou">
+                  </a> <!-- TC_018_validatingThankYou -->
+                  <span class="method-name">TC_018_validatingThankYou</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //div[@class=&apos;u-text--bold text-alpha&apos;]&apos; (tried for 60 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at PageObject.HealthandWellness.validateThankYou(HealthandWellness.java:132)
+	at TestCases.HealthandWellness_TestCases.TC_018_validatingThankYou(HealthandWellness_TestCases.java:81)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;u-text--bold text-alpha&apos;]&quot;}
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ca7ca2fbc32270f427aaa5f45f02a183, findElement {using=xpath, value=//div[@class=&apos;u-text--bold text-alpha&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53913}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53913/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ca7ca2fbc32270f427aaa5f45f02a183
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy49.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:204)
+	... 30 more
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.FindDoctors_TestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_001_findDoctors">
+                  </a> <!-- TC_001_findDoctors -->
+                  <span class="method-name">TC_001_findDoctors</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_002_selectLocation">
+                  </a> <!-- TC_002_selectLocation -->
+                  <span class="method-name">TC_002_selectLocation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_003_selectProfession">
+                  </a> <!-- TC_003_selectProfession -->
+                  <span class="method-name">TC_003_selectProfession</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_004_selectStory">
+                  </a> <!-- TC_004_selectStory -->
+                  <span class="method-name">TC_004_selectStory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_005_doctorExperience">
+                  </a> <!-- TC_005_doctorExperience -->
+                  <span class="method-name">TC_005_doctorExperience</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_006_selectingDoctorFees">
+                  </a> <!-- TC_006_selectingDoctorFees -->
+                  <span class="method-name">TC_006_selectingDoctorFees</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_007_selectingDoctorsAvailability">
+                  </a> <!-- TC_007_selectingDoctorsAvailability -->
+                  <span class="method-name">TC_007_selectingDoctorsAvailability</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_008_selectingSortBy">
+                  </a> <!-- TC_008_selectingSortBy -->
+                  <span class="method-name">TC_008_selectingSortBy</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_009_topFiveDoctorDetails">
+                  </a> <!-- TC_009_topFiveDoctorDetails -->
+                  <span class="method-name">TC_009_topFiveDoctorDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.Surgeries_TestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_010_clickSurgery">
+                  </a> <!-- TC_010_clickSurgery -->
+                  <span class="method-name">TC_010_clickSurgery</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_011_veryfingDirectedtoSurgeryPage">
+                  </a> <!-- TC_011_veryfingDirectedtoSurgeryPage -->
+                  <span class="method-name">TC_011_veryfingDirectedtoSurgeryPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_012_allPossibleSurgery">
+                  </a> <!-- TC_012_allPossibleSurgery -->
+                  <span class="method-name">TC_012_allPossibleSurgery</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.HealthandWellness_TestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_013_navigatingToHealthAndWellness">
+                  </a> <!-- TC_013_navigatingToHealthAndWellness -->
+                  <span class="method-name">TC_013_navigatingToHealthAndWellness</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_014_verifyingDirectedtoHealthAndWellnessPase">
+                  </a> <!-- TC_014_verifyingDirectedtoHealthAndWellnessPase -->
+                  <span class="method-name">TC_014_verifyingDirectedtoHealthAndWellnessPase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_015_fillformWithInvalidNumber">
+                  </a> <!-- TC_015_fillformWithInvalidNumber -->
+                  <span class="method-name">TC_015_fillformWithInvalidNumber</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_016_fillingformWithInvalidEmail">
+                  </a> <!-- TC_016_fillingformWithInvalidEmail -->
+                  <span class="method-name">TC_016_fillingformWithInvalidEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_017_fillingFormWithValidInput">
+                  </a> <!-- TC_017_fillingFormWithValidInput -->
+                  <span class="method-name">TC_017_fillingFormWithValidInput</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\2303837\eclipse-workspace\Finding_Hospital_POM\master.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Utilities.ExtentReport&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;parameter name=&quot;os&quot; value=&quot;windows&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestBase.BaseClass&quot;/&gt;
+      &lt;class name=&quot;TestCases.FindDoctors_TestCases&quot;/&gt;
+      &lt;class name=&quot;TestCases.Surgeries_TestCases&quot;/&gt;
+      &lt;class name=&quot;TestCases.HealthandWellness_TestCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC_018_validatingThankYou')
+data.setCell(0, 2, 'TestCases.HealthandWellness_TestCases')
+data.setCell(0, 3, 72844);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC_006_selectingDoctorFees')
+data.setCell(1, 2, 'TestCases.FindDoctors_TestCases')
+data.setCell(1, 3, 52657);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC_008_selectingSortBy')
+data.setCell(2, 2, 'TestCases.FindDoctors_TestCases')
+data.setCell(2, 3, 43333);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC_003_selectProfession')
+data.setCell(3, 2, 'TestCases.FindDoctors_TestCases')
+data.setCell(3, 3, 35055);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TC_005_doctorExperience')
+data.setCell(4, 2, 'TestCases.FindDoctors_TestCases')
+data.setCell(4, 3, 34847);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TC_013_navigatingToHealthAndWellness')
+data.setCell(5, 2, 'TestCases.HealthandWellness_TestCases')
+data.setCell(5, 3, 34620);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TC_001_findDoctors')
+data.setCell(6, 2, 'TestCases.FindDoctors_TestCases')
+data.setCell(6, 3, 32211);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TC_009_topFiveDoctorDetails')
+data.setCell(7, 2, 'TestCases.FindDoctors_TestCases')
+data.setCell(7, 3, 9335);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TC_012_allPossibleSurgery')
+data.setCell(8, 2, 'TestCases.Surgeries_TestCases')
+data.setCell(8, 3, 5840);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TC_007_selectingDoctorsAvailability')
+data.setCell(9, 2, 'TestCases.FindDoctors_TestCases')
+data.setCell(9, 3, 5287);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TC_010_clickSurgery')
+data.setCell(10, 2, 'TestCases.Surgeries_TestCases')
+data.setCell(10, 3, 3342);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'TC_004_selectStory')
+data.setCell(11, 2, 'TestCases.FindDoctors_TestCases')
+data.setCell(11, 3, 3302);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'TC_016_fillingformWithInvalidEmail')
+data.setCell(12, 2, 'TestCases.HealthandWellness_TestCases')
+data.setCell(12, 3, 3279);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'TC_002_selectLocation')
+data.setCell(13, 2, 'TestCases.FindDoctors_TestCases')
+data.setCell(13, 3, 2801);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'TC_017_fillingFormWithValidInput')
+data.setCell(14, 2, 'TestCases.HealthandWellness_TestCases')
+data.setCell(14, 3, 2703);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'TC_015_fillformWithInvalidNumber')
+data.setCell(15, 2, 'TestCases.HealthandWellness_TestCases')
+data.setCell(15, 3, 2220);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'TC_011_veryfingDirectedtoSurgeryPage')
+data.setCell(16, 2, 'TestCases.Surgeries_TestCases')
+data.setCell(16, 3, 85);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'TC_014_verifyingDirectedtoHealthAndWellnessPase')
+data.setCell(17, 2, 'TestCases.HealthandWellness_TestCases')
+data.setCell(17, 3, 15);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">6 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TestCases.FindDoctors_TestCases</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setupDriver</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TestCases.Surgeries_TestCases</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setupDriver</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TestCases.HealthandWellness_TestCases</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setupDriver</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestBase.BaseClass</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setupDriver(windows, chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.FindDoctors_TestCases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TC_001_findDoctors</span>
+                <span class="method-start">39607 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_002_selectLocation</span>
+                <span class="method-start">72223 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_003_selectProfession</span>
+                <span class="method-start">75333 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_004_selectStory</span>
+                <span class="method-start">110658 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_005_doctorExperience</span>
+                <span class="method-start">114286 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_006_selectingDoctorFees</span>
+                <span class="method-start">149461 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_007_selectingDoctorsAvailability</span>
+                <span class="method-start">202386 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_008_selectingSortBy</span>
+                <span class="method-start">207931 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_009_topFiveDoctorDetails</span>
+                <span class="method-start">251535 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.Surgeries_TestCases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TC_010_clickSurgery</span>
+                <span class="method-start">261208 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_011_veryfingDirectedtoSurgeryPage</span>
+                <span class="method-start">265037 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_012_allPossibleSurgery</span>
+                <span class="method-start">265585 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.HealthandWellness_TestCases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TC_013_navigatingToHealthAndWellness</span>
+                <span class="method-start">271931 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_014_verifyingDirectedtoHealthAndWellnessPase</span>
+                <span class="method-start">306924 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_015_fillformWithInvalidNumber</span>
+                <span class="method-start">307309 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_016_fillingformWithInvalidEmail</span>
+                <span class="method-start">309953 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_017_fillingFormWithValidInput</span>
+                <span class="method-start">313627 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_018_validatingThankYou</span>
+                <span class="method-start">316887 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestBase.BaseClass</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">390067 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
