@@ -4,3 +4,4 @@ Feature: Popular Surgeries
   Given User naviagte to Surgeries button
   When User scroll down till Popular Surgeries
   Then User fetch all the popular surgeries
+  And User scroll up till For Corporate button

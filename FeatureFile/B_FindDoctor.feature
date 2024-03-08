@@ -2,7 +2,7 @@ Feature: Find Doctors
  
   Scenario Outline: Select City and Profession
     Given User navigate to find Doctors page
-    When User search for city                           
+    When User search for city and select city                          
   	And User search for profession
   	Then User click on profession
   	
@@ -11,4 +11,4 @@ Feature: Find Doctors
   	And User select Experience from dropdown
 		And User select Fees and Availability from All Filters
 		Then User select Sort By from the dropdown 
-		And User display the doctors details
+		And User display the doctors details on console and store it in excel sheet

@@ -1,0 +1,55 @@
+15:34:03.354 [main] INFO  TestBase.BaseClass - *****Test Case TC_018_validatingThankYou Ended*****
+15:34:04.877 [main] INFO  TestBase.BaseClass - Tear down Sucessfull
+15:34:50.430 [main] INFO  TestBase.BaseClass - *****Starting TC_001_findDoctors Test Case*****
+15:34:50.444 [main] INFO  TestBase.BaseClass - URL is varified
+15:34:50.511 [main] INFO  TestBase.BaseClass - Verifying Find Doctors button has been displayed
+15:35:22.493 [main] INFO  TestBase.BaseClass - Clicked on Find Doctors
+15:35:22.493 [main] INFO  TestBase.BaseClass - *****Test Case TC_001_findDoctors Ended*****
+15:35:22.938 [main] INFO  TestBase.BaseClass - *****Starting TC_002_selectLocation Test Case*****
+15:35:26.114 [main] INFO  TestBase.BaseClass - Selected the City in city textbox
+15:35:26.115 [main] INFO  TestBase.BaseClass - *****Test Case TC_002_selectLocation Ended*****
+15:35:26.447 [main] INFO  TestBase.BaseClass - *****Starting TC_003_selectProfession Test Case*****
+15:35:27.826 [main] INFO  TestBase.BaseClass - Clicked on Profession Textbox
+15:36:13.972 [main] INFO  TestBase.BaseClass - Profession is selected
+15:36:13.972 [main] INFO  TestBase.BaseClass - *****Test Case TC_003_selectProfession Ended*****
+15:36:14.273 [main] INFO  TestBase.BaseClass - *****Starting TC_004_selectStory Test Case*****
+15:36:17.576 [main] INFO  TestBase.BaseClass - Patient story is selected
+15:36:17.576 [main] INFO  TestBase.BaseClass - *****Test Case TC_004_selectStory Ended*****
+15:36:17.916 [main] INFO  TestBase.BaseClass - *****Starting TC_005_doctorExperience Test Case*****
+15:37:15.704 [main] INFO  TestBase.BaseClass - Patient story is selected
+15:37:15.704 [main] INFO  TestBase.BaseClass - *****Test Case TC_005_doctorExperience Ended*****
+15:37:16.036 [main] INFO  TestBase.BaseClass - *****Starting TC_006_selectingDoctorFees Test Case*****
+15:37:49.742 [main] INFO  TestBase.BaseClass - Clicked on all filters dropdown
+15:37:49.916 [main] INFO  TestBase.BaseClass - Doctor Fees is selected
+15:37:49.916 [main] INFO  TestBase.BaseClass - *****Test Case TC_006_selectingDoctorFees Ended*****
+15:37:50.170 [main] INFO  TestBase.BaseClass - *****Starting TC_007_selectingDoctorsAvailability Test Case*****
+15:38:23.816 [main] INFO  TestBase.BaseClass - Clicked on all filters dropdown
+15:38:23.964 [main] INFO  TestBase.BaseClass - Doctors Availability is Selected
+15:38:23.964 [main] INFO  TestBase.BaseClass - *****Test Case TC_007_selectingDoctorsAvailability Ended*****
+15:38:24.232 [main] INFO  TestBase.BaseClass - *****Starting TC_008_selectingSortBy Test Case*****
+15:38:29.384 [main] INFO  TestBase.BaseClass - Clicked on SortBy dropdown
+15:38:31.114 [main] INFO  TestBase.BaseClass - Sort By value is Selected
+15:38:31.114 [main] INFO  TestBase.BaseClass - *****Test Case TC_008_selectingSortBy Ended*****
+15:38:31.429 [main] INFO  TestBase.BaseClass - *****Starting TC_009_topFiveDoctorDetails Test Case*****
+15:38:34.761 [main] INFO  TestBase.BaseClass - Details of top 5 doctors displayed on the console
+15:38:37.129 [main] INFO  TestBase.BaseClass - Printed the details of top doctors in excel
+15:38:37.129 [main] INFO  TestBase.BaseClass - *****Test Case TC_009_topFiveDoctorDetails Ended*****
+15:38:37.460 [main] INFO  TestBase.BaseClass - *****Starting TC_010_clickSurgery Test Case*****
+15:38:37.507 [main] INFO  TestBase.BaseClass - Validating Surgery Button wether it is enabled or not
+15:38:37.507 [main] INFO  TestBase.BaseClass - Surgery Button is Validated and is Enabled
+15:38:39.481 [main] INFO  TestBase.BaseClass - Clicked on Suirgery Button
+15:38:39.481 [main] INFO  TestBase.BaseClass - *****Test Case TC_010_clickSurgery Ended*****
+15:38:39.989 [main] INFO  TestBase.BaseClass - *****Starting TC_011_veryfingDirectedtoSurgeryPage Test Case*****
+15:38:40.002 [main] INFO  TestBase.BaseClass - Getting the current title of the page
+15:38:40.003 [main] INFO  TestBase.BaseClass - Current title of the page is validated and we have directed to valid page.
+15:38:40.061 [main] INFO  TestBase.BaseClass - Scrolling down to the surgery by using Javascript executer
+15:38:40.061 [main] INFO  TestBase.BaseClass - *****Test Case TC_011_veryfingDirectedtoSurgeryPage Ended*****
+15:38:40.365 [main] INFO  TestBase.BaseClass - *****Starting TC_012_allPossibleSurgery Test Case*****
+15:38:42.793 [main] INFO  TestBase.BaseClass - Copying all possible surgeries from one list to another.
+15:38:46.543 [main] INFO  TestBase.BaseClass - Printing the list of all possible surgeries.
+15:38:46.585 [main] INFO  TestBase.BaseClass - Scrolling up till for corporate button
+15:38:46.585 [main] INFO  TestBase.BaseClass - *****Test Case TC_012_allPossibleSurgery Ended*****
+15:38:47.094 [main] INFO  TestBase.BaseClass - *****Starting TC_013_navigatingToHealthAndWellness Test Case*****
+15:38:47.227 [main] INFO  TestBase.BaseClass - Clicked on For Corporate
+15:39:12.995 [main] INFO  TestBase.BaseClass - Clicked on Health and Wellness.
+15:39:12.995 [main] INFO  TestBase.BaseClass - *****Test Case TC_013_navigatingToHealthAndWellness Ended*****

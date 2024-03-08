@@ -44,16 +44,16 @@ public class PractoStepDefination extends BaseClass{
 	
 	List<String> allSurgeries=new ArrayList<String>();
 	
-	@Given("User navigate to practo page")
-	public void User_navigate_to_practo_page() throws IOException {
+	@Given("User do the basic Setup")
+	public void User_do_the_basic_Setup() throws IOException {
 		logger = LogManager.getLogger(this.getClass());
 		FileReader file = new FileReader(".//src/test/resources/config.properties");
 		p = new Properties();
 		p.load(file);
 		driver =setupDriver("windows","chrome");	
 	}
-	@When("User get current Url from the Properties file")
-	public void User_get_current_Url_from_the_Properties_file() {
+	@When("User get Url from the Properties file")
+	public void User_get_Url_from_the_Properties_file() {
 		appURL = p.getProperty("appUrl");
 		logger.info("Captured the current Url");
 	}
@@ -91,8 +91,8 @@ public class PractoStepDefination extends BaseClass{
 		System.out.println("User is on find doctors page");
 		logger.info("User navigated to find doctor page");
 	}
-	@When("User search for city")
-	public void User_search_for_city() throws Exception {
+	@When("User search for city and select city")
+	public void User_search_for_city_and_select_city() throws Exception {
 		fd = new FindDoctors(driver);
 		fd.cityTextbox();
 		logger.info("User clicked on city textbox and selected the city");
@@ -148,7 +148,7 @@ public class PractoStepDefination extends BaseClass{
 		Thread.sleep(5000);
 		logger.info(" Sort By has been select from dropdown");
 	}
-	@And("User display the doctors details")
+	@And("User display the doctors details on console and store it in excel sheet")
 	public void User_display_the_doctors_details() throws InterruptedException, IOException {
 		
 		System.out.println("List of top doctors :\n");
@@ -224,7 +224,13 @@ public class PractoStepDefination extends BaseClass{
 		}
 		logger.info("Total surgeries displayed on console");
 		logger.info("List of All Possible surgeries stored in the excel sheet");
+		
+	}
+	
+	@And("User scroll up till For Corporate button")
+	public void scroll_up_till_corporate() {
 		s.scrollUpSurgery(driver);
+		System.out.println("User scrolled up till For Corporate button");
 		logger.info("Scrolling up till for corporate button");
 	}
 	

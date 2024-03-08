@@ -1,47 +1,21 @@
-17:28:18.338 [main] INFO  TestBase.BaseClass - Doctors Availability is Selected
-17:28:18.356 [main] INFO  TestBase.BaseClass - *****Test Case TC_007_selectingDoctorsAvailability Ended*****
-17:28:18.596 [main] INFO  TestBase.BaseClass - *****Starting TC_008_selectingSortBy Test Case*****
-17:28:51.225 [main] INFO  TestBase.BaseClass - Clicked on SortBy dropdown
-17:28:53.650 [main] INFO  TestBase.BaseClass - Sort By value is Selected
-17:28:53.651 [main] INFO  TestBase.BaseClass - *****Test Case TC_008_selectingSortBy Ended*****
-17:28:53.966 [main] INFO  TestBase.BaseClass - *****Starting TC_009_topFiveDoctorDetails Test Case*****
-17:28:57.339 [main] INFO  TestBase.BaseClass - Details of top 5 doctors displayed on the console
-17:29:01.073 [main] INFO  TestBase.BaseClass - Printed the details of top doctors in excel
-17:29:01.073 [main] INFO  TestBase.BaseClass - *****Test Case TC_009_topFiveDoctorDetails Ended*****
-17:29:01.344 [main] INFO  TestBase.BaseClass - *****Starting TC_010_clickSurgery Test Case*****
-17:29:01.388 [main] INFO  TestBase.BaseClass - Validating Surgery Button wether it is enabled or not
-17:29:01.388 [main] INFO  TestBase.BaseClass - Surgery Button is Validated and is Enabled
-17:29:03.494 [main] INFO  TestBase.BaseClass - Clicked on Suirgery Button
-17:29:03.494 [main] INFO  TestBase.BaseClass - *****Test Case TC_010_clickSurgery Ended*****
-17:29:03.967 [main] INFO  TestBase.BaseClass - *****Starting TC_011_veryfingDirectedtoSurgeryPage Test Case*****
-17:29:04.051 [main] INFO  TestBase.BaseClass - Getting the current title of the page
-17:29:04.051 [main] INFO  TestBase.BaseClass - Current title of the page is validated and we have directed to valid page.
-17:29:04.102 [main] INFO  TestBase.BaseClass - Scrolling down to the surgery by using Javascript executer
-17:29:04.102 [main] INFO  TestBase.BaseClass - *****Test Case TC_011_veryfingDirectedtoSurgeryPage Ended*****
-17:29:04.453 [main] INFO  TestBase.BaseClass - *****Starting TC_012_allPossibleSurgery Test Case*****
-17:29:06.846 [main] INFO  TestBase.BaseClass - Copying all possible surgeries from one list to another.
-17:29:08.651 [main] INFO  TestBase.BaseClass - Printing the list of all possible surgeries.
-17:29:08.695 [main] INFO  TestBase.BaseClass - Scrolling up till for corporate button
-17:29:08.696 [main] INFO  TestBase.BaseClass - *****Test Case TC_012_allPossibleSurgery Ended*****
-17:29:09.132 [main] INFO  TestBase.BaseClass - *****Starting TC_013_navigatingToHealthAndWellness Test Case*****
-17:29:09.275 [main] INFO  TestBase.BaseClass - Clicked on For Corporate
-17:29:45.272 [main] INFO  TestBase.BaseClass - Clicked on Health and Wellness.
-17:29:45.272 [main] INFO  TestBase.BaseClass - *****Test Case TC_013_navigatingToHealthAndWellness Ended*****
-17:29:45.617 [main] INFO  TestBase.BaseClass - *****Starting TC_014_verifyingDirectedtoHealthAndWellnessPase Test Case*****
-17:29:45.631 [main] INFO  TestBase.BaseClass - Getting title of the current page
-17:29:45.631 [main] INFO  TestBase.BaseClass - Title of current page is valid and we are diverted to correct page
-17:29:45.631 [main] INFO  TestBase.BaseClass - *****Test Case TC_014_verifyingDirectedtoHealthAndWellnessPase Ended*****
-17:29:45.971 [main] INFO  TestBase.BaseClass - *****Starting TC_015_fillformWithInvalidNumber Test Case*****
-17:29:47.347 [main] INFO  TestBase.BaseClass - The submit button is disabled when the form is filled with invalid contact number.
-17:29:48.359 [main] INFO  TestBase.BaseClass - *****Test Case TC_015_fillformWithInvalidNumber Ended*****
-17:29:48.788 [main] INFO  TestBase.BaseClass - *****Starting TC_016_fillingformWithInvalidEmail Test Case*****
-17:29:49.140 [main] INFO  TestBase.BaseClass - Previous data of formFillingWithInvalidNumber is cleared.
-17:29:51.146 [main] INFO  TestBase.BaseClass - The submit button is disabled when the form is filled with invalid Email-id
-17:29:52.161 [main] INFO  TestBase.BaseClass - *****Test Case TC_016_fillingformWithInvalidEmail Ended*****
-17:29:52.489 [main] INFO  TestBase.BaseClass - *****Starting TC_017_fillingFormWithValidInput Test Case*****
-17:29:52.802 [main] INFO  TestBase.BaseClass - Previous data of formFillingWithInvalidEmail is cleared.
-17:29:55.348 [main] INFO  TestBase.BaseClass - The submit button is enabled when the form is filled with the valid data
-17:29:55.536 [main] INFO  TestBase.BaseClass - Clicked on Submit button
-17:29:55.536 [main] INFO  TestBase.BaseClass - *****Test Case TC_017_fillingFormWithValidInput Ended*****
-17:29:56.142 [main] INFO  TestBase.BaseClass - *****Starting TC_018_validatingThankYou Test Case*****
-17:31:10.557 [main] INFO  TestBase.BaseClass - Tear down Sucessfull
+15:39:13.337 [main] INFO  TestBase.BaseClass - *****Starting TC_014_verifyingDirectedtoHealthAndWellnessPase Test Case*****
+15:39:13.358 [main] INFO  TestBase.BaseClass - Getting title of the current page
+15:39:13.359 [main] INFO  TestBase.BaseClass - Title of current page is valid and we are diverted to correct page
+15:39:13.359 [main] INFO  TestBase.BaseClass - *****Test Case TC_014_verifyingDirectedtoHealthAndWellnessPase Ended*****
+15:39:13.754 [main] INFO  TestBase.BaseClass - *****Starting TC_015_fillformWithInvalidNumber Test Case*****
+15:39:15.310 [main] INFO  TestBase.BaseClass - The submit button is disabled when the form is filled with invalid contact number.
+15:39:16.321 [main] INFO  TestBase.BaseClass - *****Test Case TC_015_fillformWithInvalidNumber Ended*****
+15:39:16.819 [main] INFO  TestBase.BaseClass - *****Starting TC_016_fillingformWithInvalidEmail Test Case*****
+15:39:17.294 [main] INFO  TestBase.BaseClass - Previous data of formFillingWithInvalidNumber is cleared.
+15:39:19.306 [main] INFO  TestBase.BaseClass - The submit button is disabled when the form is filled with invalid Email-id
+15:39:20.320 [main] INFO  TestBase.BaseClass - *****Test Case TC_016_fillingformWithInvalidEmail Ended*****
+15:39:20.679 [main] INFO  TestBase.BaseClass - *****Starting TC_017_fillingFormWithValidInput Test Case*****
+15:39:21.013 [main] INFO  TestBase.BaseClass - Previous data of formFillingWithInvalidEmail is cleared.
+15:39:23.489 [main] INFO  TestBase.BaseClass - The submit button is enabled when the form is filled with the valid data
+15:39:23.652 [main] INFO  TestBase.BaseClass - Clicked on Submit button
+15:39:23.653 [main] INFO  TestBase.BaseClass - *****Test Case TC_017_fillingFormWithValidInput Ended*****
+15:39:24.157 [main] INFO  TestBase.BaseClass - *****Starting TC_018_validatingThankYou Test Case*****
+15:40:12.570 [main] INFO  TestBase.BaseClass - Validating the Thank You message
+15:40:12.570 [main] INFO  TestBase.BaseClass - Thank You message is validated and the form is submitted Sucessfully
+15:40:12.570 [main] INFO  TestBase.BaseClass - *****Test Case TC_018_validatingThankYou Ended*****
+15:40:14.158 [main] INFO  TestBase.BaseClass - Tear down Sucessfull
